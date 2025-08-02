@@ -1,0 +1,75 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+qwen3_moe
+qwen3_moe_debug
+qwen3_moe_no_omp
+qwen3_moe_portable
+qwen3_moe_static
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Downloaded model directories
+Qwen*-*/
+*-A3B*/
+*-A22B*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core.*
+
+# Standalone files from other repositories
+standalone-*.ipynb
