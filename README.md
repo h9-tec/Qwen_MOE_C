@@ -1,4 +1,4 @@
-# Qwen3 MoE C Inference
+# Qwen_MOE_C
 
 A pure C implementation for inference of Qwen3 Mixture-of-Experts models, inspired by Andrej Karpathy's llama2.c approach. This implementation supports the full Qwen3-30B-A3B model architecture with 128 experts and sparse activation.
 
@@ -239,5 +239,4 @@ This code is released under the MIT License, following the same permissive appro
 - [Sebastian Raschka's LLMs-from-scratch Repository](https://github.com/rasbt/LLMs-from-scratch) - Educational LLM implementations
 - [Qwen3 MoE Standalone Notebook](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/11_qwen3/standalone-qwen3-moe.ipynb) by Sebastian Raschka
 - [llama2.c](https://github.com/karpathy/llama2.c) by Andrej Karpathy
-- [Build a Large Language Model (From Scratch)](http://mng.bz/orYv) by Sebastian Raschka#   Q w e n _ M O E _ C  
- 
+- [Build a Large Language Model (From Scratch)](http://mng.bz/orYv) by Sebastian Raschka
